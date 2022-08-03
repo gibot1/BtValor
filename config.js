@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['919107910799', 'ᴅɪɴᴇsʜ_ᴠᴀʟᴏʀ🇮🇳', true]
+  ['62881011649671', 'BtYonCy', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -20,7 +20,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b',
+  'https://api.xteam.xyz': '4a6c7f738664034f',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -28,8 +28,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'wa.me/919107910799'
-global.author = 'Dinesh Valor'
+global.packname = 'wa.me/62881011649671'
+global.author = 'Yond Lecy'
 
 global.multiplier = 69 // The higher, The harder levelup
 
