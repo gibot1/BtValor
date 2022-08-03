@@ -191,16 +191,16 @@ export async function handler(chatUpdate) {
 
                     money: 0,
                     health: 100,
-                    limit: 50,
-                    potion: 10,
+                    limit: 60,
+                    potion: 30,
                     trash: 0,
                     wood: 0,
                     rock: 0,
                     string: 0,
 
-                    emerald: 0,
-                    diamond: 0,
-                    gold: 0,
+                    emerald: 100,
+                    diamond: 100,
+                    gold: 50,
                     iron: 0,
 
                     common: 0,
@@ -557,7 +557,7 @@ export async function handler(chatUpdate) {
         if (m) {
             if (m.sender && (user = db.data.users[m.sender])) {
                 user.exp += m.exp
-                user.limit -= m.limit * 1
+                user.limit += m.limit * 1
             }
 
             let stat
